@@ -68,6 +68,7 @@ This project involves processing movie data stored in Amazon S3, using AWS Glue 
 ## Datasets and Script
   ### Dataset
   - [movies_data.csv](movie_data/imdb_movies_rating.csv): The dataset used for this project, containing movie information.
+  - [processed_data.csv](movie_data/high_performance_movie.csv): Target dataset that contains high performance movie data raitng between 8.5 and 10.
   
   ### Python Script
   - [Glue_ETL_Jobs.py](glue_etl_job_script.py): Python script for the ETL process in AWS Glue.
